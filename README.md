@@ -66,7 +66,7 @@ The image below is a demonstration of the colors that are possible for the flame
 
 # **<a name=run>How can I run? 🧠💭</a>** <h6>[back to indice](#index)</h6>
 
-Download the project, enter the `src` folder and execute:
+Download the project, install the dependencies, enter the `src` folder and execute:
 ```bash
 python main.py
 ```
