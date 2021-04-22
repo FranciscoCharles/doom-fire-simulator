@@ -13,8 +13,8 @@ An interactive Doom fire simulator with a simple options menu developed in **Pyt
 
 - [**Options menu**](#menu)
 - [**how to use the options menu?**](#using_menu)
-- [**how can i run?**](#run)
 - [**Example of possible colors for the flames**](#example)
+- [**how can i run?**](#run)
 - [**honorable mention**](#honorable_mention)
 - [**Dependencies**](#dependencies)
 - [**version**](#version)
