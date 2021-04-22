@@ -1,67 +1,86 @@
-
 <p align="center">
-    <h1>🔥 Fire Doom Simulator 🔥</h1>
+  <h1>🔥 Fire Doom Simulator 🔥</h1>
+  <h6>by <i>FranciscoCharles</i></h6>
 </p>
 
-Um simulador de fogo do Doom interativo com um menu de opções simples desenvolvido em **Python**+**Pygame**.
+An interactive Doom fire simulator with a simple options menu developed in **Python** + **Pygame**. In this project it is possible to change the amount of fps, flame decay, wind direction, wind force and make it possible to change the colors of the flames in the **`HSL`**_(hue, saturation, lightness)_ color space, in addition to allowing to turn on/off the flames.
 
 <p align="center">
     <img src="src/images/simulador.png">
 </p>
 
-# Menu de Opções 🕹️⚙️
+# <a name=index>Table of contents 📚</a>
+
+- [**settings**](#settings)
+- [**Options menu**](#menu)
+- [**how to use the options menu?**](#using_menu)
+- [**how can i run?**](#run)
+- [**Example of possible colors for the flames**](#example)
+- [**honorable mention**](#honorable_mention)
+- [**Dependencies**](#dependencies)
+- [**version**](#version)
+
+# **<a name=menu>Options menu 🧰⚙️</a>** <h6>[back to indice](#index)</h6>
+
 <p align="center">
-    <img src="src/images/opcoes.png">
+  <img src="src/images/opcoes.png">
 </p>
 
-O programa possui 8 opções ajustaveis e permite usar a tecla `Q` para ligar/desligar o fogo. As opções disponiveis no momento são:
+The program has 8 adjustable options and allows you to use the `Q` key to turn the fire on/off. The options currently available are:
 
 - **FPS**:
-  + opção para controlar o FPS, variando de 10 a 60.
+  + option to control the SPF, ranging from 10 to 60.
 - **decay**:
-  + opção para controlar a intesidade que as chamas perdem força, variando de 1 até a quantidade de cores disponiveis na paleta de cores menu um.
-- **wind direction**:
-  + opção para controlar a direção do fogo, tendo 3 modos: `rigth`, `left` e `both`.
+  + option to control the intensity with which the flames lose strength, varying from 1 to (1-amount of colors available in the color palette).
+- **Wind direction**:
+  + option to control the wind direction, having 3 modes: `right`, `left` and `both`.
 - **wind force**:
-  + opção para controlar a força do vento, variando de 0 ate 10.
+  + option to control the wind force, ranging from 0 to 10.
 - **color intensity**:
-  + opção para controlar para trocar a paleta de cores, varia de `True` para `False`.
+  + control option to change the color palette, varies from `True` to `False`.
 
-As opções abaixo só podem ser alteradas se **`color intensity`** for `True`.
+The options below can only be changed if **`color intensity`** is `True`.
 
 - **H**:
-  + opção para controlar o componente H da cor, variando de 0 a 360.
+  + option to control the H component (hue) of the color, ranging from 0 to 360.
 - **S**:
-  + opção para controlar o componente S da cor, variando de 0.0 a 1.0.
+  + option to control the S component (saturation) of the color, ranging from 0.0 to 1.0.
 - **L**:
-  + opção para controlar o componente L da cor, variando de 0.0 a 1.0
-# Cores possiveis para as chamas 🎨
+  + option to control the L component (brightness) of the color, ranging from 0.0 to 1.0
 
-A imagem abaixo é uma demostração das cores que são possiveis para as chamas.
+# **<a name=using_menu>How to use the options menu 🕹️</a>**  <h6>[back to indice](#index)</h6>
+
+- use `ESC` to exit/close the program.
+- use `Q` to turn the flames on/off 🔥.
+- use `W` or: arrow_up: to select the menu above.
+- use `Z` or: arrow_down: to select the menu below.
+- use `S` or: arrow_right: to increase / change the value of the selected menu.
+- use `A` or: arrow_left: to decrement / change the value of the selected menu.
+
+# **<a name=example>Example of possible colors for the flames 🎨</a>** <h6>[back to indice](#index)</h6>
+
+The image below is a demonstration of the colors that are possible for the flames.
+
 <p align="center">
-    <img src="src/images/firecolor.png" width="600">
+  <img src="src/images/firecolor.png" width="600">
 </p>
 
+# **<a name=run>How can I run? 🧠💭</a>** <h6>[back to indice](#index)</h6>
 
-# Como executar? 🧠💭
-Baixe o projeto, entre na pasta `src` e execute:
+Download the project, enter the `src` folder and execute:
 ```bash
 python main.py
 ```
-# Menção honrosa 🥇
+# **<a name=honorable_mention>Honorable mention 🥇</a>** <h6>[back to indice](#index)</h6>
 
-Este projeto é baseado em um video do @filipedeschamps, onde ele traz um algoritmo do fogo do doom que ele implementou, no video ele explica como funciona o algoritmo de uma forma didatica, pratica e simples. Meus agradecimentos por compartilhar seu conhecimento, conteudos diversos e divertidos.
-<br>
-<br>
-<p align="center">
-    <a href="https://youtu.be/fxm8cadCqbs"> link para o tutorial do Dechamps</a>
-</p>
+This project is based on a <a href="https://youtu.be/fxm8cadCqbs" title="go to the Dechamps video tutorial">video</a> from <a href="https://github.com/filipedeschamps"  title="Dechamps github profile">@filipedeschamps</a> , where he brings a doom fire algorithm that he implemented, in the video he explains how the algorithm works in a didactic, practical and simple way. My thanks for sharing your knowledge, diverse and fun content.
 
-# Versão
-- versão atual do projeto: 1.0.1.
+# **<a name=dependencies>Dependencies</a>**  <h6>[back to indice](#index)</h6>
 - **Pygame** == **1.9.6**.
-- **Python** == 3.7 ou superior.
+- **Python** == 3.7 or higher.
 
+# **<a name=version>Version</a>**  <h6>[back to indice](#index)</h6>
+- current version of the project: 1.0.1.
 ---
 
 <p align="center">
