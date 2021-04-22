@@ -1,4 +1,6 @@
 #_*_coding:utf-8_*_
+#created by FranciscoCharles in april,2021.
+
 from pygame import Surface
 from typing import Tuple, NewType
 

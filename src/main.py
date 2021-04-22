@@ -1,4 +1,5 @@
 #_*_coding:utf-8_*_
+#created by FranciscoCharles in april,2021.
 from os import environ
 if 'PYGAME_HIDE_SUPPORT_PROMPT' not in environ:
     environ['PYGAME_HIDE_SUPPORT_PROMPT'] = 'hidden'
