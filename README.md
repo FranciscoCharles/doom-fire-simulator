@@ -11,7 +11,6 @@ An interactive Doom fire simulator with a simple options menu developed in **Pyt
 
 # <a name=index>Table of contents 📚</a>
 
-- [**settings**](#settings)
 - [**Options menu**](#menu)
 - [**how to use the options menu?**](#using_menu)
 - [**how can i run?**](#run)
