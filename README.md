@@ -12,12 +12,13 @@ An interactive Doom fire simulator with a simple options menu developed in **Pyt
 # <a name=index>Table of contents 📚</a>
 
 - [**Options menu**](#menu)
-- [**how to use the options menu?**](#using_menu)
+- [**How to use the options menu?**](#using_menu)
 - [**Example of possible colors for the flames**](#example)
-- [**how can i run?**](#run)
-- [**honorable mention**](#honorable_mention)
+- [**How can i run?**](#run)
+- [**Honorable mention**](#honorable_mention)
 - [**Dependencies**](#dependencies)
-- [**version**](#version)
+- [**Version**](#version)
+- [**License**](#license)
 
 # **<a name=menu>Options menu 🧰⚙️</a>** <h6>[back to indice](#index)</h6>
 
@@ -29,13 +30,13 @@ The program has 8 adjustable options and allows you to use the `Q` key to turn t
 
 - **FPS**:
   + option to control the SPF, ranging from 10 to 60.
-- **decay**:
+- **Decay**:
   + option to control the intensity with which the flames lose strength, varying from 1 to (1-amount of colors available in the color palette).
 - **Wind direction**:
   + option to control the wind direction, having 3 modes: `right`, `left` and `both`.
-- **wind force**:
+- **Wind force**:
   + option to control the wind force, ranging from 0 to 10.
-- **color intensity**:
+- **Color intensity**:
   + control option to change the color palette, varies from `True` to `False`.
 
 The options below can only be changed if **`color intensity`** is `True`.
@@ -80,6 +81,11 @@ This project is based on a <a href="https://youtu.be/fxm8cadCqbs" title="go to t
 
 # **<a name=version>Version</a>**  <h6>[back to indice](#index)</h6>
 - current version of the project: 1.0.1.
+
+# **<a name=license>License</a>**  <h6>[back to indice](#index)</h6>
+
+For more information on the license for this project read the <a href="./LICENCE" title="go to license file">LICENSE</a> file.
+
 ---
 
 <p align="center">
