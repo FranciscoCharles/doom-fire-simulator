@@ -84,7 +84,7 @@ This project is based on a <a href="https://youtu.be/fxm8cadCqbs" title="go to t
 
 # **<a name=license>License</a>**  <h6>[back to indice](#index)</h6>
 
-For more information on the license for this project read the <a href="./LICENCE" title="go to license file">LICENSE</a> file.
+For more information on the license for this project read the <a href="https://github.com/FranciscoCharles/doom-fire-simulator/blob/main/LICENSE" title="go to license file">LICENSE</a> file.
 
 ---
 
