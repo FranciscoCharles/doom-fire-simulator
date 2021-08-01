@@ -50,12 +50,12 @@ The options below can only be changed if **`color intensity`** is `True`.
 
 # **<a name=using_menu>How to use the options menu 🕹️</a>**  <h6>[back to indice](#index)</h6>
 
-- use `ESC` to exit/close the program.
-- use `Q` to turn the flames on/off 🔥.
-- use `W` or: arrow_up: to select the menu above.
-- use `Z` or: arrow_down: to select the menu below.
-- use `S` or: arrow_right: to increase / change the value of the selected menu.
-- use `A` or: arrow_left: to decrement / change the value of the selected menu.
+- use <kbd>ESC</kbd> to exit/close the program.
+- use <kbd>Q</kbd> to turn the flames on/off 🔥.
+- use <kbd>W</kbd> or: arrow_up: to select the menu above.
+- use <kbd>Z</kbd> or: arrow_down: to select the menu below.
+- use <kbd>S</kbd> or: arrow_right: to increase / change the value of the selected menu.
+- use <kbd>A</kbd> or: arrow_left: to decrement / change the value of the selected menu.
 
 # **<a name=example>Example of possible colors for the flames 🎨</a>** <h6>[back to indice](#index)</h6>
 
